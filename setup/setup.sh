@@ -35,9 +35,9 @@ if [ -d .emacs.d/ ]; then
     mv .emacs.d .emacs.d~
 fi
 
-ln -sb ./setup/dotfiles/.screenrc .
-ln -sb ./setup/dotfiles/.bash_profile .
-ln -sb ./setup/dotfiles/.bashrc .
-ln -sb ./setup/dotfiles/.bashrc_custom .
-ln -sf ./setup/dotfiles/.emacs.d .
+ln -sb ./dev_env_setup/setup/dotfiles/.screenrc .
+ln -sb ./dev_env_setup/setup/dotfiles/.bash_profile .
+ln -sb ./dev_env_setup/setup/dotfiles/.bashrc .
+ln -sb ./dev_env_setup/setup/dotfiles/.bashrc_custom .
+ln -sf ./dev_env_setup/setup/dotfiles/.emacs.d .
 
